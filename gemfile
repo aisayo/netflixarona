@@ -1,0 +1,14 @@
+# where all dependencies will live
+# any gem you want your app to use
+# this is a libary source for all gems
+source "https://rubygems.org"
+
+gem 'sqlite3'
+gem 'activerecord', '~> 5.2' # specifying the version we want installed
+gem 'sinatra-activerecord'
+gem 'pry'
+gem 'rake'
+gem 'faker'
+gem 'require_all'
+
+

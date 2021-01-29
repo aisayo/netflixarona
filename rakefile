@@ -1,0 +1,10 @@
+require_relative './config/environment'
+require 'sinatra/activerecord/rake'
+
+# to check rake tasks => rake -T
+
+task :console do 
+    Pry.start
+end 
+
+# rake db:create_migration => creates a migration where you can establish what the table is going to look like
